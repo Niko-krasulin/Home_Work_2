@@ -3,11 +3,40 @@
 }
 
 .textarea {
-
+    position: absolute;
+    width: 976px;
+    height: 40px;
+    left: 70px;
+    top: 432px;
+    resize: none;
+    overflow: hidden;
+    border-radius: 20px;
+    background-color: #F5F7FB;
+    box-shadow: 0px 1px 2px 0px rgba(29, 33, 38, 0.1),0px 5px 20px 0px rgba(29, 33, 38, 0.03);
+}
+.textarea::placeholder {
+    position: absolute;
+    width: 135px;
+    height: 17px;
+    left: 34px;
+    opacity: 0.9;
+    color: rgba(0, 0, 0, 0.6);
+    font:14px Montserrat, sans-serif;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: left;
 }
 
 .button {
-
+    position: absolute;
+    width: 120px;
+    height: 40px;
+    left: 1090px;
+    top: 432px;
+    border-radius: 20px;
+    background-color: #0066CC;
+    border: none;
+    color: white;
 }
 
 .button:hover {
