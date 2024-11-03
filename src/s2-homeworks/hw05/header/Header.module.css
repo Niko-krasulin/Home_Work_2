@@ -2,7 +2,12 @@
 }
 
 .header {
+    /* Rectangle 9 */
+    /*position: relative;*/
+    display: flex;
+    /*gap: 100vh;*/
 }
 
 .header h1 {
+    margin-left: 400px;
 }

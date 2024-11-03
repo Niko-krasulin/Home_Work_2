@@ -1,36 +1,61 @@
 .button {
+    width: 132px;
+    height: 30px;
+    border-radius: 3px;
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: center;
 }
 
 .disabled {
+    background: rgb(0, 77, 153);
+    opacity: 0.5;
 }
 
 .secondary {
+    width: 176px;
+    color: rgb(0, 102, 204);
+    background: none;
+
 }
 
 .default {
+    background: rgb(0, 102, 204);
+
 }
 
 .red {
+    background: rgb(204, 20, 57);
 }
 
 .default:hover {
+    cursor: pointer;
 }
 
 .red:hover {
+    cursor: pointer;
 }
 
 .secondary:hover {
+    cursor: pointer;
 }
 
 
 .default:active {
+    opacity: 0.8;
 }
 
 .secondary:active {
+    opacity: 0.8
 }
 
 .red:active {
+    opacity: 0.8
 }
 
 .button:disabled {
+    cursor: not-allowed;
 }
